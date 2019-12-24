@@ -2,9 +2,9 @@
 // AbstractDisplayクラスを見ただけではdisplayが何をするかわからない
 // 実際に何をするかは、open print closeを実装するサブクラスに任されている
 export abstract class AbstractDisplay {
-  public abstract open(): void;   //サブクラスに実装を任せる抽象メソッド1
-  public abstract print(): void;  //サブクラスに実装を任せる抽象メソッド2
-  public abstract close(): void;  //サブクラスに実装を任せる抽象メソッド3
+  protected abstract open(): void;   //サブクラスに実装を任せる抽象メソッド1
+  protected abstract print(): void;  //サブクラスに実装を任せる抽象メソッド2
+  protected abstract close(): void;  //サブクラスに実装を任せる抽象メソッド3
 
   //このクラスで実装しているメソッド
   public display() {
