@@ -2,6 +2,7 @@ import { AbstractDisplay } from '../abstract-display/abstract-display'
 
 // スーパークラスのAbstractDisplayクラスで抽象メソッドになっていたopen print closeが全て実装されている
 // のでCharDisplayは抽象クラスではない
+// ConcreateClass(具象クラスの役)
 export class CharDisplay extends AbstractDisplay {   //AbstractDisplayのサブクラス
   private ch: string;
   constructor(ch: string) {

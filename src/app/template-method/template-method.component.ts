@@ -12,7 +12,6 @@ export class TemplateMethodComponent implements OnInit {
   stringDisplay: StringDisplay;
   stringDisplayJapanise: StringDisplay;
 
-
   constructor() { }
 
   ngOnInit() {
@@ -20,10 +19,10 @@ export class TemplateMethodComponent implements OnInit {
     this.stringDisplay = new StringDisplay('Hello, world.');
     this.stringDisplayJapanise = new StringDisplay('こんにちは。');
 
-    this.display();
+    this.showConsole();
   }
 
-  display() {
+  showConsole() {
     this.charDisplay.display();
     this.stringDisplay.display();
     this.stringDisplayJapanise.display();
