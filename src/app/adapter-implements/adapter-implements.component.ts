@@ -3,11 +3,11 @@ import { Print } from './Print';
 import { PrintBanner } from './PrintBanner';
 
 @Component({
-  selector: 'app-adapter-extends',
-  templateUrl: './adapter-extends.component.html',
-  styleUrls: ['./adapter-extends.component.css'],
+  selector: 'app-adapter-implements',
+  templateUrl: './adapter-implements.component.html',
+  styleUrls: ['./adapter-implements.component.css'],
 })
-export class AdapterExtendsComponent implements OnInit {
+export class AdapterImplementsComponent implements OnInit {
   p: Print = new PrintBanner('Hello');
 
   constructor() {}

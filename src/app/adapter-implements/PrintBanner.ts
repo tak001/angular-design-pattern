@@ -1,5 +1,5 @@
-import { Banner } from './banner';
-import { Print } from './print';
+import { Banner } from './Banner';
+import { Print } from './Print';
 
 export class PrintBanner extends Print {
   private banner: Banner;

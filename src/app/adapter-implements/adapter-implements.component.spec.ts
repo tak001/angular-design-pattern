@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdapterTransferComponent } from './adapter-transfer.component';
+import { AdapterImplementsComponent } from './adapter-implements.component';
 
-describe('AdapterTransferComponent', () => {
-  let component: AdapterTransferComponent;
-  let fixture: ComponentFixture<AdapterTransferComponent>;
+describe('AdapterImplementsComponent', () => {
+  let component: AdapterImplementsComponent;
+  let fixture: ComponentFixture<AdapterImplementsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdapterTransferComponent ]
+      declarations: [ AdapterImplementsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AdapterTransferComponent);
+    fixture = TestBed.createComponent(AdapterImplementsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
