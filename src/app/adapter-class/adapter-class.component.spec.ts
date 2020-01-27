@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdapterImplementsComponent } from './adapter-implements.component';
+import { AdapterClassComponent } from './adapter-class.component';
 
-describe('AdapterImplementsComponent', () => {
-  let component: AdapterImplementsComponent;
-  let fixture: ComponentFixture<AdapterImplementsComponent>;
+describe('AdapterClassComponent', () => {
+  let component: AdapterClassComponent;
+  let fixture: ComponentFixture<AdapterClassComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdapterImplementsComponent ]
+      declarations: [ AdapterClassComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AdapterImplementsComponent);
+    fixture = TestBed.createComponent(AdapterClassComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

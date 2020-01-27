@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AdapterExtendsComponent } from './adapter-extends.component';
+import { AdapterInstanceComponent } from './adapter-instance.component';
 
-describe('AdapterExtendsComponent', () => {
-  let component: AdapterExtendsComponent;
-  let fixture: ComponentFixture<AdapterExtendsComponent>;
+describe('AdapterInstanceComponent', () => {
+  let component: AdapterInstanceComponent;
+  let fixture: ComponentFixture<AdapterInstanceComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdapterExtendsComponent ]
+      declarations: [ AdapterInstanceComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AdapterExtendsComponent);
+    fixture = TestBed.createComponent(AdapterInstanceComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

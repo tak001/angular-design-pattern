@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AdapterExtendsComponent } from './adapter-extends/adapter-extends.component';
-import { AdapterImplementsComponent } from './adapter-implements/adapter-implements.component';
+import { AdapterClassComponent } from './adapter-class/adapter-class.component';
+import { AdapterInstanceComponent } from './adapter-instance/adapter-instance.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FacadeComponent } from './facade/facade.component';
@@ -15,8 +15,8 @@ import { TemplateMethodComponent } from './template-method/template-method.compo
     HeaderComponent,
     TemplateMethodComponent,
     FactoryMethodComponent,
-    AdapterExtendsComponent,
-    AdapterImplementsComponent,
+    AdapterClassComponent,
+    AdapterInstanceComponent,
     FacadeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
